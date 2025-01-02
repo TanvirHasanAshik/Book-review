@@ -1,0 +1,167 @@
+[
+    {
+        "Title": "The Brothers Karamazov",
+        "Author": "Fyodor Dostoevsky",
+        "Genre": "Philosophical Fiction",
+        "Review": "A profound exploration of faith, doubt, and morality through the story of three brothers.",
+        "Tags": [
+            "Philosophical Fiction",
+            "Classics"
+        ],
+        "Number_of_Pages": 796,
+        "Publisher": "The Russian Messenger",
+        "Year_of_Publishing": 1880,
+        "Rating": 4.8,
+        "Cover_Image": "https://covers.openlibrary.org/b/id/8236571-L.jpg"
+    },
+    {
+        "Title": "1984",
+        "Author": "George Orwell",
+        "Genre": "Dystopian, Political Fiction",
+        "Review": "A chilling portrayal of a totalitarian regime that controls every aspect of life.",
+        "Tags": [
+            "Dystopian",
+            "Classics"
+        ],
+        "Number_of_Pages": 328,
+        "Publisher": "Secker & Warburg",
+        "Year_of_Publishing": 1949,
+        "Rating": 4.7,
+        "Cover_Image": "https://covers.openlibrary.org/b/id/8237425-L.jpg"
+    },
+    {
+        "Title": "To Kill a Mockingbird",
+        "Author": "Harper Lee",
+        "Genre": "Southern Gothic, Bildungsroman",
+        "Review": "A novel about racial injustice and the loss of innocence in the American South.",
+        "Tags": [
+            "Classics",
+            "Fiction"
+        ],
+        "Number_of_Pages": 324,
+        "Publisher": "J.B. Lippincott & Co.",
+        "Year_of_Publishing": 1960,
+        "Rating": 4.9,
+        "Cover_Image": "https://covers.openlibrary.org/b/id/8226171-L.jpg"
+    },
+    {
+        "Title": "The Great Gatsby",
+        "Author": "F. Scott Fitzgerald",
+        "Genre": "Tragedy, Social Commentary",
+        "Review": "A critical look at the American Dream in the Roaring Twenties.",
+        "Tags": [
+            "Classics",
+            "Fiction"
+        ],
+        "Number_of_Pages": 218,
+        "Publisher": "Charles Scribner's Sons",
+        "Year_of_Publishing": 1925,
+        "Rating": 4.6,
+        "Cover_Image": "https://covers.openlibrary.org/b/id/8225826-L.jpg"
+    },
+    {
+        "Title": "Moby-Dick",
+        "Author": "Herman Melville",
+        "Genre": "Adventure, Epic",
+        "Review": "The quest of Captain Ahab to kill the white whale, Moby Dick, explores the depths of obsession.",
+        "Tags": [
+            "Adventure",
+            "Classics"
+        ],
+        "Number_of_Pages": 585,
+        "Publisher": "Harper & Brothers",
+        "Year_of_Publishing": 1851,
+        "Rating": 4.5,
+        "Cover_Image": "https://covers.openlibrary.org/b/id/8241260-L.jpg"
+    },
+    {
+        "Title": "Pride and Prejudice",
+        "Author": "Jane Austen",
+        "Genre": "Romance, Comedy of Manners",
+        "Review": "A witty exploration of the lives and loves of the Bennet family.",
+        "Tags": [
+            "Romance",
+            "Classics"
+        ],
+        "Number_of_Pages": 279,
+        "Publisher": "T. Egerton",
+        "Year_of_Publishing": 1813,
+        "Rating": 4.8,
+        "Cover_Image": "https://covers.openlibrary.org/b/id/8190172-L.jpg"
+    },
+    {
+        "Title": "Crime and Punishment",
+        "Author": "Fyodor Dostoevsky",
+        "Genre": "Psychological Fiction, Philosophy",
+        "Review": "A gripping story of guilt and redemption following a student's murderous crime.",
+        "Tags": [
+            "Classics",
+            "Philosophical Fiction"
+        ],
+        "Number_of_Pages": 430,
+        "Publisher": "The Russian Messenger",
+        "Year_of_Publishing": 1866,
+        "Rating": 4.8,
+        "Cover_Image": "https://covers.openlibrary.org/b/id/8238376-L.jpg"
+    },
+    {
+        "Title": "The Catcher in the Rye",
+        "Author": "J.D. Salinger",
+        "Genre": "Realistic Fiction, Coming-of-Age",
+        "Review": "A young man's struggle with his identity and place in the world.",
+        "Tags": [
+            "Coming-of-Age",
+            "Classics"
+        ],
+        "Number_of_Pages": 277,
+        "Publisher": "Little, Brown and Company",
+        "Year_of_Publishing": 1951,
+        "Rating": 4.5,
+        "Cover_Image": "https://covers.openlibrary.org/b/id/8204085-L.jpg"
+    },
+    {
+        "Title": "Brave New World",
+        "Author": "Aldous Huxley",
+        "Genre": "Dystopian Fiction",
+        "Review": "A look at a utopian world gone wrong, with state-controlled happiness and order.",
+        "Tags": [
+            "Dystopian",
+            "Science Fiction"
+        ],
+        "Number_of_Pages": 311,
+        "Publisher": "Chatto & Windus",
+        "Year_of_Publishing": 1932,
+        "Rating": 4.6,
+        "Cover_Image": "https://covers.openlibrary.org/b/id/8237425-L.jpg"
+    },
+    {
+        "Title": "The Hobbit",
+        "Author": "J.R.R. Tolkien",
+        "Genre": "Fantasy, Adventure",
+        "Review": "The story of Bilbo Baggins and his unexpected journey to help reclaim a lost treasure.",
+        "Tags": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "Number_of_Pages": 310,
+        "Publisher": "George Allen & Unwin",
+        "Year_of_Publishing": 1937,
+        "Rating": 4.8,
+        "Cover_Image": "https://covers.openlibrary.org/b/id/8204275-L.jpg"
+    },
+    {
+        "Title": "The Odyssey",
+        "Author": "Homer",
+        "Genre": "Epic Poetry, Adventure",
+        "Review": "The legendary journey of Odysseus to return home after the Trojan War.",
+        "Tags": [
+            "Epic",
+            "Classics"
+        ],
+        "Number_of_Pages": 541,
+        "Publisher": "Various",
+        "Year_of_Publishing": "8th Century BC",
+        "Rating": 4.7,
+        "Cover_Image": "https://covers.openlibrary.org/b/id/8238743-L.jpg"
+    }
+]
