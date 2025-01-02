@@ -1,4 +1,6 @@
 import React from 'react';
+import { CiStar, CiUser } from 'react-icons/ci';
+import { RiPagesLine } from 'react-icons/ri';
 import { SlCalender } from "react-icons/sl";
 import { useNavigate } from 'react-router-dom';
 const ListBook = ({ book }) => {
@@ -27,9 +29,9 @@ const ListBook = ({ book }) => {
                     </p>
                 </div>
                 <div className='flex  items-center gap-2 font-bold border-b-2 pb-4'>
-                    <p className='text-sm'>Publisher: {Publisher}</p>
-                    <p className='text-sm'>Rating: {Rating}</p>
-                    <p className='text-sm'>Pages: {Number_of_Pages}</p>
+                    <p className='text-sm flex items-center gap-1'><CiUser />Publisher: {Publisher}</p>
+                    <p className='text-sm flex items-center gap-1'><CiStar />Rating: {Rating}</p>
+                    <p className='text-sm flex items-center gap-1'><RiPagesLine />Pages: {Number_of_Pages}</p>
                 </div>
                 <div className="card-actions ">
                     <button
