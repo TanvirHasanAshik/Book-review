@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { getReadBooks, getWishList, setReadBooks, setWishList } from '../../Utility/localstorage';
+import toast, { Toaster } from 'react-hot-toast';
 
 const DetailsBook = () => {
     const books = useLoaderData();
@@ -9,9 +11,35 @@ const DetailsBook = () => {
     useEffect(() => {
         const book = books.find((book) => book.Title === title);
         setDetailsBook(book);
-    }, []);
+    }, [books, title]);
+
+
+    const handleReadBook = (title) => {
+        const getBooks = getReadBooks();
+        if (getBooks.includes(title)) {
+            toast.error('Already read the book');
+        } else {
+            setReadBooks(title);
+            toast.success('Successfully read the book')
+        }
+    }
+
+    const handleWishlist = (title) => {
+        const getCheckBooks = getReadBooks();
+        const getCheckWishList = getWishList();
+
+        if (getCheckBooks.includes(title)) {
+            toast.error('Already read the book');
+        } else if (getCheckWishList.includes(title)) {
+            toast.error('Already added to wishlist');
+        } else {
+            setWishList(title);
+            toast.success('Successfully added to wishlist')
+        }
+
+    }
     return (
-        <div className='flex gap-10 my-10 items-center justify-center'>
+        <div className='flex flex-col lg:flex-row gap-10 mx-5 my-10 items-center justify-center'>
             <div className='border rounded-lg'>
                 <img src={detailBook?.Cover_Image} alt="" />
             </div>
@@ -40,9 +68,13 @@ const DetailsBook = () => {
                         <h2>{detailBook?.Rating}</h2>
                     </div>
                 </div>
-                <button className="btn btn-outline">Read</button>
-                <button className="btn btn-secondary text-white ml-5">
+                <button onClick={() => handleReadBook(title)}
+                    className="btn btn-outline">
+                    Read</button>
+                <button onClick={() => handleWishlist(title)}
+                    className="btn btn-secondary text-white ml-5">
                     Wish list</button>
+                <Toaster />
             </div>
         </div>
     );
