@@ -6,7 +6,6 @@ const Navbar = () => {
     const link = <div className='flex flex-col lg:flex-row'>
         <li><NavLink to="/" >Home</NavLink ></li>
         <li><NavLink to="/listed-book" >Listed books</NavLink ></li>
-        <li><NavLink to="/page-to-read" >Page to read</NavLink ></li>
     </div>
     return (
         <div className="navbar bg-base-100">
@@ -38,9 +37,6 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal px-1">
                     {link}
                 </ul>
-            </div>
-            <div className="navbar-end">
-                <a className="btn">Button</a>
             </div>
         </div>
     );
